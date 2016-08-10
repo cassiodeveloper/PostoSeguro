@@ -1,0 +1,8 @@
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.PDFParser\bin\Debug\PostoSeguro.PDFParser.exe.config
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.PDFParser\bin\Debug\PostoSeguro.PDFParser.exe
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.PDFParser\bin\Debug\PostoSeguro.PDFParser.pdb
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.PDFParser\obj\Debug\PostoSeguro.PDFParser.csprojResolveAssemblyReference.cache
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.PDFParser\obj\Debug\PostoSeguro.PDFParser.exe
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.PDFParser\obj\Debug\PostoSeguro.PDFParser.pdb
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.PDFParser\bin\Debug\PostoSeguro.WebClientHelper.dll
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.PDFParser\bin\Debug\PostoSeguro.WebClientHelper.pdb

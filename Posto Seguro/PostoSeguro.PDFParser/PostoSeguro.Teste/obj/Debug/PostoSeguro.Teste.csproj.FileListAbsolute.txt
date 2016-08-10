@@ -1,0 +1,14 @@
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\bin\Debug\PostoSeguro.Teste.dll
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\bin\Debug\PostoSeguro.Teste.pdb
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\bin\Debug\PostoSeguro.Data.dll
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\bin\Debug\MongoDB.Driver.dll
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\bin\Debug\MongoDB.Bson.dll
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\bin\Debug\PostoSeguro.Data.pdb
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\bin\Debug\MongoDB.Driver.xml
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\bin\Debug\MongoDB.Bson.xml
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\bin\Debug\pt-BR\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\obj\Debug\PostoSeguro.Teste.csprojResolveAssemblyReference.cache
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\obj\Debug\PostoSeguro.Teste.dll
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\obj\Debug\PostoSeguro.Teste.pdb
