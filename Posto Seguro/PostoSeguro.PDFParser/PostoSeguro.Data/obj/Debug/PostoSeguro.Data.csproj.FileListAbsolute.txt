@@ -8,3 +8,5 @@ C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro
 C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\obj\Debug\PostoSeguro.Data.csprojResolveAssemblyReference.cache
 C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\obj\Debug\PostoSeguro.Data.dll
 C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\obj\Debug\PostoSeguro.Data.pdb
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\PostoSeguro.Model.dll
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\PostoSeguro.Model.pdb

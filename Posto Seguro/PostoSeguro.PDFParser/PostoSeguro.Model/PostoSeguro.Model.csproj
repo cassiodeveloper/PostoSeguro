@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4F3D3407-3899-4973-A42F-10CA91DA368B}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{14871156-6B5E-490B-8552-4EA2893ED030}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PostoSeguro.PDFParser</RootNamespace>
-    <AssemblyName>PostoSeguro.PDFParser</AssemblyName>
+    <RootNamespace>PostoSeguro.Model</RootNamespace>
+    <AssemblyName>PostoSeguro.Model</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -33,8 +30,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MongoDB.Bson, Version=2.2.4.26, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Bson.2.2.4\lib\net45\MongoDB.Bson.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,27 +44,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Configuration.cs" />
+    <Compile Include="EntityBase.cs" />
+    <Compile Include="Posto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config">
-      <SubType>Designer</SubType>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PostoSeguro.Data\PostoSeguro.Data.csproj">
-      <Project>{831A58A6-FC7D-4D10-BF48-1216ECFDFADF}</Project>
-      <Name>PostoSeguro.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PostoSeguro.Model\PostoSeguro.Model.csproj">
-      <Project>{14871156-6b5e-490b-8552-4ea2893ed030}</Project>
-      <Name>PostoSeguro.Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PostoSeguro.WebClientHelper\PostoSeguro.WebClientHelper.csproj">
-      <Project>{3822e577-f538-420e-b8a1-f82c39b6d4e7}</Project>
-      <Name>PostoSeguro.WebClientHelper</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,7 @@
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Model\bin\Debug\PostoSeguro.Model.dll
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Model\bin\Debug\PostoSeguro.Model.pdb
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Model\obj\Debug\PostoSeguro.Model.csprojResolveAssemblyReference.cache
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Model\obj\Debug\PostoSeguro.Model.dll
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Model\obj\Debug\PostoSeguro.Model.pdb
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Model\bin\Debug\MongoDB.Bson.dll
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Model\bin\Debug\MongoDB.Bson.xml

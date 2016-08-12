@@ -12,3 +12,6 @@ C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro
 C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\obj\Debug\PostoSeguro.Teste.csprojResolveAssemblyReference.cache
 C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\obj\Debug\PostoSeguro.Teste.dll
 C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\obj\Debug\PostoSeguro.Teste.pdb
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\bin\Debug\PostoSeguro.Model.dll
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\bin\Debug\PostoSeguro.Model.pdb
+C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\bin\Debug\PostoSeguro.Teste.dll.config

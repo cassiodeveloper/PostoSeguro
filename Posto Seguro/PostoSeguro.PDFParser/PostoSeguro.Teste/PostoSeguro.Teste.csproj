@@ -58,6 +58,13 @@
       <Project>{831a58a6-fc7d-4d10-bf48-1216ecfdfadf}</Project>
       <Name>PostoSeguro.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PostoSeguro.Model\PostoSeguro.Model.csproj">
+      <Project>{14871156-6B5E-490B-8552-4EA2893ED030}</Project>
+      <Name>PostoSeguro.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

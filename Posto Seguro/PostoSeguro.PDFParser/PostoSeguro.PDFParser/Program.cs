@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PostoSeguro.Data;
+using System;
 using System.Configuration;
 using System.IO;
 using System.Net;
@@ -8,6 +9,8 @@ namespace PostoSeguro.PDFParser
 {
     public class Program
     {
+        #region Private Members
+
         static Uri urlToDownloadDataBombaMedidora = new Uri(ConfigurationManager.AppSettings["URLDadosBombaMedidora"].ToString());
         static Uri mainUrlDataBombaMedidora = new Uri(ConfigurationManager.AppSettings["SubIndexURLDadosBombaMedidora"]);
 
@@ -15,12 +18,25 @@ namespace PostoSeguro.PDFParser
         static string fileExtention = ConfigurationManager.AppSettings["PDFDadosBombaMedidoraFileExtention"].ToString();
         static string pathPDFDadosBombaMedidora = ConfigurationManager.AppSettings["PathPDFDadosBombaMedidora"].ToString();
 
+        static ConfigurationDao configDao = new ConfigurationDao();
+
+        #endregion
+
+        #region Main
+
         public static void Main(string[] args)
         {
-            VerificarUltimaAtualizacaoSiteANPBombaMedidora();
+            DateTime ultimaDataAtualizacao = VerificarUltimaAtualizacaoSiteANPBombaMedidora();
 
-            BaixarPDFBombaMedidoraAtualizado();
+            if (ultimaDataAtualizacao > configDao.ObterUltimaAtualizacaoBombaMedidora())
+                BaixarPDFBombaMedidoraAtualizado();
+            else
+                Console.WriteLine("Não houve atualização no site da ANP para os dados de Bomba Medidora.");
         }
+
+        #endregion
+
+        #region Helper Methods
 
         private static void BaixarPDFBombaMedidoraAtualizado()
         {
@@ -34,14 +50,14 @@ namespace PostoSeguro.PDFParser
             Console.WriteLine("Download realizado com sucesso, arquivo: " + fileName + " salvo em: " + pathPDFDadosBombaMedidora);
         }
 
-        private static void VerificarUltimaAtualizacaoSiteANPBombaMedidora()
+        private static DateTime VerificarUltimaAtualizacaoSiteANPBombaMedidora()
         {
             Console.WriteLine("Checando última data de atualização em: " + mainUrlDataBombaMedidora.AbsoluteUri);
 
             var request = WebClientHelper.WebClientHelper.WebRequestFactory(mainUrlDataBombaMedidora.AbsoluteUri);
             var response = request.GetResponse();
 
-            DateTime ultimaDataAtualizacao = ObterUltimaDataAtualizacao(response);
+            return ObterUltimaDataAtualizacao(response);
         }
 
         private static DateTime ObterUltimaDataAtualizacao(WebResponse response)
@@ -75,5 +91,7 @@ namespace PostoSeguro.PDFParser
         {
             return fileName += DateTime.Now.ToString().Replace("/", string.Empty).Replace(":", string.Empty).Trim() + fileExtention;
         }
+
+        #endregion
     }
 }
