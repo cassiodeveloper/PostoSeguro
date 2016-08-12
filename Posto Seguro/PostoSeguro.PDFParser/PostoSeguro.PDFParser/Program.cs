@@ -26,9 +26,9 @@ namespace PostoSeguro.PDFParser
 
         public static void Main(string[] args)
         {
-            DateTime ultimaDataAtualizacao = VerificarUltimaAtualizacaoSiteANPBombaMedidora();
+            DateTime ultimaDataAtualizacaoBombaMedidora = VerificarUltimaAtualizacaoSiteANPBombaMedidora();
 
-            if (ultimaDataAtualizacao > configDao.ObterUltimaAtualizacaoBombaMedidora())
+            if (ultimaDataAtualizacaoBombaMedidora > configDao.ObterUltimaAtualizacaoBombaMedidora())
                 BaixarPDFBombaMedidoraAtualizado();
             else
                 Console.WriteLine("Não houve atualização no site da ANP para os dados de Bomba Medidora.");
