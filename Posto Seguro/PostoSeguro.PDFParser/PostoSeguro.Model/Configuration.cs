@@ -6,6 +6,6 @@ namespace PostoSeguro.Model
     {
         public string Name { get; set; }
         public DateTime UltimaAtualizacaoDadosBombaMedidora { get; set; }
-        public DateTime UltimaAtualizacaoDadosQualidade { get; set; }
+        public DateTime UltimaAtualizacaoQualidade { get; set; }
     }
 }

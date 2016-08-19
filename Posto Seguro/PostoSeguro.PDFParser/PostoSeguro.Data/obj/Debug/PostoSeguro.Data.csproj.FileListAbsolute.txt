@@ -10,3 +10,15 @@ C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro
 C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\obj\Debug\PostoSeguro.Data.pdb
 C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\PostoSeguro.Model.dll
 C:\Users\mtzcpd1053\Documents\src\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\PostoSeguro.Model.pdb
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\PostoSeguro.Data.dll
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\PostoSeguro.Data.pdb
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\MongoDB.Bson.dll
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\MongoDB.Driver.dll
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\PostoSeguro.Model.dll
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\PostoSeguro.Model.pdb
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\MongoDB.Bson.xml
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\MongoDB.Driver.xml
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\obj\Debug\PostoSeguro.Data.csprojResolveAssemblyReference.cache
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\obj\Debug\PostoSeguro.Data.dll
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\obj\Debug\PostoSeguro.Data.pdb

@@ -1,5 +1,6 @@
 ﻿using PostoSeguro.Data;
 using System;
+using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Net;
@@ -13,10 +14,16 @@ namespace PostoSeguro.PDFParser
 
         static Uri urlToDownloadDataBombaMedidora = new Uri(ConfigurationManager.AppSettings["URLDadosBombaMedidora"].ToString());
         static Uri mainUrlDataBombaMedidora = new Uri(ConfigurationManager.AppSettings["SubIndexURLDadosBombaMedidora"]);
+        static Uri mainUrlDataQualidade = new Uri(ConfigurationManager.AppSettings["SubIndexURLDadosQualidade"]);
 
         static string fileName = ConfigurationManager.AppSettings["PDFDadosBombaMedidoraFileName"].ToString();
         static string fileExtention = ConfigurationManager.AppSettings["PDFDadosBombaMedidoraFileExtention"].ToString();
+        static string fileExtentionQualidade = ConfigurationManager.AppSettings["PDFDadosQualidadeFileExtention"].ToString();
         static string pathPDFDadosBombaMedidora = ConfigurationManager.AppSettings["PathPDFDadosBombaMedidora"].ToString();
+        static string pathPDFDadosQualidade = ConfigurationManager.AppSettings["PathPDFDadosQualidade"].ToString();
+
+        static string[] allKeys = ConfigurationManager.AppSettings.AllKeys;
+        static List<string> urlsToDownloadDataQualidade;
 
         static ConfigurationDao configDao = new ConfigurationDao();
 
@@ -26,6 +33,30 @@ namespace PostoSeguro.PDFParser
 
         public static void Main(string[] args)
         {
+            ConfigurarParametrosDownloadEstados();
+
+            ProcessarDadosBombaMedidora();
+            ProcessarDadosQualidade();
+
+            Console.ReadKey();
+        }
+
+        #endregion
+
+        #region Helper Methods
+
+        private static void ProcessarDadosQualidade()
+        {
+            DateTime ultimaDataAtualizacaoQualidade = VerificarUltimaAtualizacaoSiteANPQualidade();
+
+            if (ultimaDataAtualizacaoQualidade > configDao.ObterUltimaAtualizacaoQualidade())
+                BaixarPDFsQualidade();
+            else
+                Console.WriteLine("Não houve atualização no site da ANP para os dados de Qualidade.");
+        }
+
+        private static void ProcessarDadosBombaMedidora()
+        {
             DateTime ultimaDataAtualizacaoBombaMedidora = VerificarUltimaAtualizacaoSiteANPBombaMedidora();
 
             if (ultimaDataAtualizacaoBombaMedidora > configDao.ObterUltimaAtualizacaoBombaMedidora())
@@ -34,14 +65,21 @@ namespace PostoSeguro.PDFParser
                 Console.WriteLine("Não houve atualização no site da ANP para os dados de Bomba Medidora.");
         }
 
-        #endregion
+        private static void ConfigurarParametrosDownloadEstados()
+        {
+            urlsToDownloadDataQualidade = new List<string>();
 
-        #region Helper Methods
+            for (int i = 0; i < allKeys.Length; i++)
+            {
+                if (allKeys[i].StartsWith("URLDadosQualidade"))
+                    urlsToDownloadDataQualidade.Add(allKeys[i]);
+            }
+        }
 
         private static void BaixarPDFBombaMedidoraAtualizado()
         {
             Console.WriteLine("Preparando para realizar o download de: POSTOS REVENDEDORES AUTUADOS E/OU INTERDITADOS POR IRREGULARIDADES NO VOLUME DE COMBUSTÍVEL DISPENSADO POR BOMBA MEDIDORA");
-            Console.WriteLine("Em: " + urlToDownloadDataBombaMedidora.AbsolutePath);
+            Console.WriteLine("Em: " + urlToDownloadDataBombaMedidora.AbsoluteUri);
 
             string fileName = ConfigureFileName();
 
@@ -50,11 +88,39 @@ namespace PostoSeguro.PDFParser
             Console.WriteLine("Download realizado com sucesso, arquivo: " + fileName + " salvo em: " + pathPDFDadosBombaMedidora);
         }
 
+        private static void BaixarPDFsQualidade()
+        {
+            Console.WriteLine("Preparando para realizar o download de: POSTOS REVENDEDORES AUTUADOS E/OU INTERDITADOS POR PROBLEMAS DE QUALIDADE DOS COMBUSTÍVEIS");
+
+            foreach (var item in urlsToDownloadDataQualidade)
+            {
+                Uri urlToDownload = new Uri(ConfigurationManager.AppSettings[item]);
+
+                Console.WriteLine("Em: " + urlToDownload.AbsoluteUri);
+
+                string fileName = ConfigureFileName(item.Substring(item.Length - 2, 2));
+
+                WebClientHelper.WebClientHelper.DownloadPDFFile(urlToDownload, pathPDFDadosQualidade, fileName);
+
+                Console.WriteLine("Download realizado com sucesso, arquivo: " + fileName + " salvo em: " + pathPDFDadosQualidade);
+            }
+        }
+
         private static DateTime VerificarUltimaAtualizacaoSiteANPBombaMedidora()
         {
             Console.WriteLine("Checando última data de atualização em: " + mainUrlDataBombaMedidora.AbsoluteUri);
 
             var request = WebClientHelper.WebClientHelper.WebRequestFactory(mainUrlDataBombaMedidora.AbsoluteUri);
+            var response = request.GetResponse();
+
+            return ObterUltimaDataAtualizacao(response);
+        }
+
+        private static DateTime VerificarUltimaAtualizacaoSiteANPQualidade()
+        {
+            Console.WriteLine("Checando última data de atualização em: " + mainUrlDataQualidade.AbsoluteUri);
+
+            var request = WebClientHelper.WebClientHelper.WebRequestFactory(mainUrlDataQualidade.AbsoluteUri);
             var response = request.GetResponse();
 
             return ObterUltimaDataAtualizacao(response);
@@ -90,6 +156,12 @@ namespace PostoSeguro.PDFParser
         private static string ConfigureFileName()
         {
             return fileName += DateTime.Now.ToString().Replace("/", string.Empty).Replace(":", string.Empty).Trim() + fileExtention;
+        }
+
+        private static string ConfigureFileName(string siglaEstado)
+        {
+            return siglaEstado.Trim() + fileExtentionQualidade;
+
         }
 
         #endregion

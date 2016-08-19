@@ -21,5 +21,12 @@ namespace PostoSeguro.Data
         {
             return configRepo.Update(configuration);
         }
+
+        public DateTime ObterUltimaAtualizacaoQualidade()
+        {
+            return configRepo.SearchFor(c => c.Name == "UltimaAtualizacaoQualidade")
+                .SingleOrDefault()
+                .UltimaAtualizacaoQualidade;
+        }
     }
 }
