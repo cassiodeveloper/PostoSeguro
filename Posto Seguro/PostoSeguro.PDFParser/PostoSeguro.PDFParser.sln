@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostoSeguro.PDFParser", "PostoSeguro.PDFParser\PostoSeguro.PDFParser.csproj", "{4F3D3407-3899-4973-A42F-10CA91DA368B}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostoSeguro.Teste", "PostoSeguro.Teste\PostoSeguro.Teste.csproj", "{E642E936-A23F-4F34-993D-13A0E961390B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostoSeguro.Model", "PostoSeguro.Model\PostoSeguro.Model.csproj", "{14871156-6B5E-490B-8552-4EA2893ED030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostoSeguro.API", "..\..\Posto Seguro API\PostoSeguro.API\PostoSeguro.API.csproj", "{2CA187AC-122B-4559-8352-053A0B1E9466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostoSeguro.API.Tests", "PostoSeguro.API.Tests\PostoSeguro.API.Tests.csproj", "{B4D97401-F2A3-4B5E-B7A9-D691B1E5D3A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{14871156-6B5E-490B-8552-4EA2893ED030}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14871156-6B5E-490B-8552-4EA2893ED030}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14871156-6B5E-490B-8552-4EA2893ED030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CA187AC-122B-4559-8352-053A0B1E9466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CA187AC-122B-4559-8352-053A0B1E9466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CA187AC-122B-4559-8352-053A0B1E9466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CA187AC-122B-4559-8352-053A0B1E9466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4D97401-F2A3-4B5E-B7A9-D691B1E5D3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D97401-F2A3-4B5E-B7A9-D691B1E5D3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D97401-F2A3-4B5E-B7A9-D691B1E5D3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D97401-F2A3-4B5E-B7A9-D691B1E5D3A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

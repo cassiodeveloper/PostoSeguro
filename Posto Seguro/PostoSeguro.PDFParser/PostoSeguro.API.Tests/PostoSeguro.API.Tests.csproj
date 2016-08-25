@@ -98,6 +98,15 @@
   <ItemGroup>
     <Content Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Posto Seguro API\PostoSeguro.API\PostoSeguro.API.csproj">
+      <Project>{2CA187AC-122B-4559-8352-053A0B1E9466}</Project>
+      <Name>PostoSeguro.API</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
