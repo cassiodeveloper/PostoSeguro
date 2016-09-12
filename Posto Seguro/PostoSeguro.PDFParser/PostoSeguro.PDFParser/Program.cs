@@ -5,6 +5,7 @@ using System.Configuration;
 using System.IO;
 using System.Net;
 using System.Text.RegularExpressions;
+using PostoSeguro.Model;
 
 namespace PostoSeguro.PDFParser
 {
@@ -27,6 +28,8 @@ namespace PostoSeguro.PDFParser
 
         static ConfigurationDao configDao = new ConfigurationDao();
 
+        static Model.Configuration config = null;
+
         #endregion
 
         #region Main
@@ -34,6 +37,8 @@ namespace PostoSeguro.PDFParser
         public static void Main(string[] args)
         {
             ConfigurarParametrosDownloadEstados();
+
+            config = configDao.ObterEntidadeUltimaAtualizacao();
 
             ProcessarDadosBombaMedidora();
             ProcessarDadosQualidade();
@@ -49,8 +54,8 @@ namespace PostoSeguro.PDFParser
         {
             DateTime ultimaDataAtualizacaoQualidade = VerificarUltimaAtualizacaoSiteANPQualidade();
 
-            if (ultimaDataAtualizacaoQualidade > configDao.ObterUltimaAtualizacaoQualidade())
-                BaixarPDFsQualidade();
+            if (ultimaDataAtualizacaoQualidade > config.UltimaAtualizacaoDadosQualidade)
+                BaixarPDFsQualidade(config);
             else
                 Console.WriteLine("Não houve atualização no site da ANP para os dados de Qualidade.");
         }
@@ -59,8 +64,8 @@ namespace PostoSeguro.PDFParser
         {
             DateTime ultimaDataAtualizacaoBombaMedidora = VerificarUltimaAtualizacaoSiteANPBombaMedidora();
 
-            if (ultimaDataAtualizacaoBombaMedidora > configDao.ObterUltimaAtualizacaoBombaMedidora())
-                BaixarPDFBombaMedidoraAtualizado();
+            if (ultimaDataAtualizacaoBombaMedidora > config.UltimaAtualizacaoDadosBombaMedidora)
+                BaixarPDFBombaMedidoraAtualizado(config);
             else
                 Console.WriteLine("Não houve atualização no site da ANP para os dados de Bomba Medidora.");
         }
@@ -76,7 +81,7 @@ namespace PostoSeguro.PDFParser
             }
         }
 
-        private static void BaixarPDFBombaMedidoraAtualizado()
+        private static void BaixarPDFBombaMedidoraAtualizado(Model.Configuration config)
         {
             Console.WriteLine("Preparando para realizar o download de: POSTOS REVENDEDORES AUTUADOS E/OU INTERDITADOS POR IRREGULARIDADES NO VOLUME DE COMBUSTÍVEL DISPENSADO POR BOMBA MEDIDORA");
             Console.WriteLine("Em: " + urlToDownloadDataBombaMedidora.AbsoluteUri);
@@ -86,9 +91,17 @@ namespace PostoSeguro.PDFParser
             WebClientHelper.WebClientHelper.DownloadPDFFile(urlToDownloadDataBombaMedidora, pathPDFDadosBombaMedidora, fileName);
 
             Console.WriteLine("Download realizado com sucesso, arquivo: " + fileName + " salvo em: " + pathPDFDadosBombaMedidora);
+
+            AtualizarUltimaDataAtualizacaoBombaMedidora(config);
         }
 
-        private static void BaixarPDFsQualidade()
+        private static void AtualizarUltimaDataAtualizacaoBombaMedidora(Model.Configuration config)
+        {
+            config.UltimaAtualizacaoDadosBombaMedidora = DateTime.Now;
+            configDao.AtualizarUltimaDataAtualizacao(config);
+        }
+
+        private static void BaixarPDFsQualidade(Model.Configuration config)
         {
             Console.WriteLine("Preparando para realizar o download de: POSTOS REVENDEDORES AUTUADOS E/OU INTERDITADOS POR PROBLEMAS DE QUALIDADE DOS COMBUSTÍVEIS");
 
@@ -104,6 +117,14 @@ namespace PostoSeguro.PDFParser
 
                 Console.WriteLine("Download realizado com sucesso, arquivo: " + fileName + " salvo em: " + pathPDFDadosQualidade);
             }
+
+            AtualizarUltimaDataAtualizacaoQualidade(config);
+        }
+
+        private static void AtualizarUltimaDataAtualizacaoQualidade(Model.Configuration config)
+        {
+            config.UltimaAtualizacaoDadosQualidade = DateTime.Now;
+            configDao.AtualizarUltimaDataAtualizacao(config);
         }
 
         private static DateTime VerificarUltimaAtualizacaoSiteANPBombaMedidora()

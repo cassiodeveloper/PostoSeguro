@@ -10,23 +10,15 @@ namespace PostoSeguro.Data
         Configuration configuration = new Configuration();
         MongoRepository<Configuration> configRepo = new MongoRepository<Configuration>();
 
-        public DateTime ObterUltimaAtualizacaoBombaMedidora()
+        public Configuration ObterEntidadeUltimaAtualizacao()
         {
-            return configRepo.SearchFor(c => c.Name == "UltimaAtualizacaoBombaMedidora")
-                .SingleOrDefault()
-                .UltimaAtualizacaoDadosBombaMedidora;
+            return configRepo.SearchFor(c => c.Name == "UltimaAtualizacao")
+                .SingleOrDefault();
         }
 
-        public bool AtualizarUltimaAtualizacaoBombaMedidora(Configuration configuration)
+        public bool AtualizarUltimaDataAtualizacao(Configuration configuration)
         {
             return configRepo.Update(configuration);
-        }
-
-        public DateTime ObterUltimaAtualizacaoQualidade()
-        {
-            return configRepo.SearchFor(c => c.Name == "UltimaAtualizacaoQualidade")
-                .SingleOrDefault()
-                .UltimaAtualizacaoQualidade;
         }
     }
 }

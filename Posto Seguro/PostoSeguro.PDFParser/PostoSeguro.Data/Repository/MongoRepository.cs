@@ -39,7 +39,7 @@ namespace PostoSeguro.Data.Repository
 
         public bool Update(TEntity entity)
         {
-            var result = collection.ReplaceOneAsync(CreateFilterByEntityId(entity), entity);
+            var result = collection.ReplaceOneAsync(CreateFilterByDefaultId(entity), entity);
 
             return result.Result.MatchedCount > 0;
         }
@@ -94,6 +94,11 @@ namespace PostoSeguro.Data.Repository
         private FilterDefinition<TEntity> CreateFilterById(Guid id)
         {
             return Builders<TEntity>.Filter.Eq("id", id);
+        }
+
+        private FilterDefinition<TEntity> CreateFilterByDefaultId(TEntity entity)
+        {
+            return Builders<TEntity>.Filter.Eq("_id", entity.Id);
         }
 
         private FilterDefinition<TEntity> CreateFilterByEntityId(TEntity entity)
