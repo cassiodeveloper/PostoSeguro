@@ -75,3 +75,15 @@ C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.AP
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\obj\Debug\PostoSeguro.API.csprojResolveAssemblyReference.cache
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\obj\Debug\PostoSeguro.API.dll
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\obj\Debug\PostoSeguro.API.pdb
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\PostoSeguro.Data.dll
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\PostoSeguro.Model.dll
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\MongoDB.Driver.dll
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\MongoDB.Bson.dll
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\MongoDB.Driver.Core.dll
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\PostoSeguro.Data.pdb
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\PostoSeguro.Model.pdb
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\MongoDB.Driver.xml
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\MongoDB.Bson.xml
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\System.Web.Cors.dll
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\System.Web.Http.Cors.dll
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\System.Web.Http.Cors.xml
