@@ -66,6 +66,11 @@ namespace PostoSeguro.Data.Repository
             return collection.FindAsync<TEntity>(CreateFilterById(id)).Result.ToList().SingleOrDefault();
         }
 
+        public TEntity GetById(TEntity entity)
+        {
+            return collection.FindAsync<TEntity>(CreateFilterByDefaultId(entity)).Result.ToList().SingleOrDefault();
+        }
+
         #endregion
 
         #region Private Helper Methods
@@ -99,6 +104,11 @@ namespace PostoSeguro.Data.Repository
         private FilterDefinition<TEntity> CreateFilterByDefaultId(TEntity entity)
         {
             return Builders<TEntity>.Filter.Eq("_id", entity.Id);
+        }
+
+        private FilterDefinition<TEntity> CreateFilterByDefaultId(string id)
+        {
+            return Builders<TEntity>.Filter.Eq("_id", id);
         }
 
         private FilterDefinition<TEntity> CreateFilterByEntityId(TEntity entity)

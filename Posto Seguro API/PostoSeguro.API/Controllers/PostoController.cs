@@ -21,7 +21,7 @@ namespace PostoSeguro.API.Controllers
             return postoDao.ObterPostos();
         }
 
-        public Posto Get(int Id)
+        public Posto Get(string Id)
         {
             return postoDao.ObterPosto(Id);
         }

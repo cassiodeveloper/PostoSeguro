@@ -1,6 +1,8 @@
 ﻿using PostoSeguro.Data.Repository;
 using PostoSeguro.Model;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace PostoSeguro.Data
 {
@@ -13,10 +15,10 @@ namespace PostoSeguro.Data
             return postoRepo.GetAll();
         }
 
-        public Posto ObterPosto(int Id)
+        public Posto ObterPosto(string Id)
         {
-            return new Posto();
-            //return postoRepo.SearchFor(c => c.Id == Id).SingleOrDefault();
+            Posto posto = new Posto() { Id = new MongoDB.Bson.BsonObjectId(new MongoDB.Bson.ObjectId(Id)) };
+            return postoRepo.GetById(posto);
         }
     }
 }
