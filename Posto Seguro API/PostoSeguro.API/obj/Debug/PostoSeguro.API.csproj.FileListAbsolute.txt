@@ -87,3 +87,4 @@ C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.AP
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\System.Web.Cors.dll
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\System.Web.Http.Cors.dll
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\System.Web.Http.Cors.xml
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\obj\Debug\PostoSeguro.API.csprojResolveAssemblyReference.cache

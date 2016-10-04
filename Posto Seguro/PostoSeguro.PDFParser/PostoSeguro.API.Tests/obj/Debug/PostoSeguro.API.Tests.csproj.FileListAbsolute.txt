@@ -74,3 +74,4 @@ C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFPar
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\System.Web.Http.Cors.dll
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\System.Web.Cors.dll
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\System.Web.Http.Cors.xml
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\obj\Debug\PostoSeguro.API.Tests.csprojResolveAssemblyReference.cache
