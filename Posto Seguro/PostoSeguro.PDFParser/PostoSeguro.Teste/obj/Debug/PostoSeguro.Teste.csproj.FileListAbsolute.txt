@@ -33,3 +33,4 @@ C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFPar
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\obj\Debug\PostoSeguro.Teste.dll
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\obj\Debug\PostoSeguro.Teste.pdb
 F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\obj\Debug\PostoSeguro.Teste.csprojResolveAssemblyReference.cache
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Teste\bin\Debug\MongoDB.Driver.Core.xml

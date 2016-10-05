@@ -1,15 +1,3 @@
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\roslyn\csc.exe
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\roslyn\vbc.exe
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\roslyn\VBCSCompiler.exe
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\PostoSeguro.API.dll.config
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\PostoSeguro.API.dll
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\PostoSeguro.API.pdb
@@ -19,7 +7,6 @@ C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.AP
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\Microsoft.AspNet.Identity.Core.dll
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\Microsoft.Owin.dll
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\Microsoft.Owin.Host.SystemWeb.dll
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\Microsoft.Owin.Security.Cookies.dll
@@ -43,8 +30,6 @@ C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.AP
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\System.Web.WebPages.Deployment.dll
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\System.Web.WebPages.dll
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\System.Web.WebPages.Razor.dll
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\WebGrease.dll
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\Newtonsoft.Json.xml
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\System.Net.Http.Formatting.xml
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\System.Web.Helpers.xml
@@ -88,3 +73,4 @@ C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.AP
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\System.Web.Http.Cors.dll
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\System.Web.Http.Cors.xml
 F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\obj\Debug\PostoSeguro.API.csprojResolveAssemblyReference.cache
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\bin\MongoDB.Driver.Core.xml

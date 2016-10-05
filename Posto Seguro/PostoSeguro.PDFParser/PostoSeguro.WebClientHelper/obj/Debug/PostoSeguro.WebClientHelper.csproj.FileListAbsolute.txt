@@ -8,3 +8,8 @@ F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\Posto
 F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.WebClientHelper\obj\Debug\PostoSeguro.WebClientHelper.csprojResolveAssemblyReference.cache
 F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.WebClientHelper\obj\Debug\PostoSeguro.WebClientHelper.dll
 F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.WebClientHelper\obj\Debug\PostoSeguro.WebClientHelper.pdb
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.WebClientHelper\bin\Debug\PostoSeguro.WebClientHelper.dll
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.WebClientHelper\bin\Debug\PostoSeguro.WebClientHelper.pdb
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.WebClientHelper\obj\Debug\PostoSeguro.WebClientHelper.csprojResolveAssemblyReference.cache
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.WebClientHelper\obj\Debug\PostoSeguro.WebClientHelper.dll
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.WebClientHelper\obj\Debug\PostoSeguro.WebClientHelper.pdb

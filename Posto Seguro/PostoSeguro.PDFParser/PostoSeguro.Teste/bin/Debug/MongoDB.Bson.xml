@@ -18047,6 +18047,15 @@
       <param name="args">The serialization args.</param>
       <param name="value">The object.</param>
     </member>
+    <member name="M:MongoDB.Bson.Serialization.Serializers.DictionarySerializerBase`3.TryGetItemSerializationInfo(MongoDB.Bson.Serialization.BsonSerializationInfo@)">
+      <summary>
+             Tries to get the serialization info for the individual items of the array.
+             </summary>
+      <param name="serializationInfo">The serialization information.</param>
+      <returns>
+        <c>true</c> if the serialization info exists; otherwise <c>false</c>.
+            </returns>
+    </member>
     <member name="M:MongoDB.Bson.Serialization.Serializers.DictionarySerializerBase`3.TryGetMemberSerializationInfo(System.String,MongoDB.Bson.Serialization.BsonSerializationInfo@)">
       <summary>
             Tries to get the serialization info for a member.
@@ -19117,6 +19126,15 @@
       <param name="context">The serialization context.</param>
       <param name="args">The serialization args.</param>
       <param name="value">The object.</param>
+    </member>
+    <member name="M:MongoDB.Bson.Serialization.Serializers.KeyValuePairSerializer`2.TryGetMemberSerializationInfo(System.String,MongoDB.Bson.Serialization.BsonSerializationInfo@)">
+      <summary>
+            Tries to get the serialization info for a member.
+            </summary>
+      <param name="memberName">Name of the member.</param>
+      <param name="serializationInfo">The serialization information.</param>
+      <returns>
+        <c>true</c> if the serialization info exists; otherwise <c>false</c>.</returns>
     </member>
     <member name="P:MongoDB.Bson.Serialization.Serializers.KeyValuePairSerializer`2.ValueSerializer">
       <summary>

@@ -1,15 +1,3 @@
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\roslyn\csc.exe
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\roslyn\vbc.exe
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\roslyn\VBCSCompiler.exe
-C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\PostoSeguro.API.Tests.dll.config
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\PostoSeguro.API.Tests.dll
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\PostoSeguro.API.Tests.pdb
@@ -75,3 +63,4 @@ C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFPar
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\System.Web.Cors.dll
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\System.Web.Http.Cors.xml
 F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\obj\Debug\PostoSeguro.API.Tests.csprojResolveAssemblyReference.cache
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.API.Tests\bin\Debug\MongoDB.Driver.Core.xml

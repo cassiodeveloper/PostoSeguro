@@ -24,3 +24,4 @@ C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFPar
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.PDFParser\bin\Debug\MongoDB.Bson.xml
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.PDFParser\obj\Debug\PostoSeguro.PDFParser.csprojResolveAssemblyReference.cache
 F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.PDFParser\obj\Debug\PostoSeguro.PDFParser.csprojResolveAssemblyReference.cache
+C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.PDFParser\bin\Debug\MongoDB.Driver.Core.xml

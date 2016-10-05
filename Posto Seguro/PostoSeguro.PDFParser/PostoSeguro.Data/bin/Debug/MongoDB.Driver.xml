@@ -3951,11 +3951,12 @@
             A fluent aggregate interface.
             </returns>
     </member>
-    <member name="M:MongoDB.Driver.IMongoCollectionExtensions.AsQueryable``1(MongoDB.Driver.IMongoCollection{``0})">
+    <member name="M:MongoDB.Driver.IMongoCollectionExtensions.AsQueryable``1(MongoDB.Driver.IMongoCollection{``0},MongoDB.Driver.AggregateOptions)">
       <summary>
             Creates a queryable source of documents.
             </summary>
       <param name="collection">The collection.</param>
+      <param name="aggregateOptions">The aggregate options</param>
       <typeparam name="TDocument">The type of the document.</typeparam>
       <returns>A queryable source of documents.</returns>
     </member>
@@ -12743,6 +12744,29 @@
             derived. For more information about covariance and contravariance, see Covariance
             and Contravariance in Generics.
             </typeparam>
+    </member>
+    <member name="T:MongoDB.Driver.Linq.LinqExtensions">
+      <summary>
+            This static class holds methods that can be used to express MongoDB specific operations in LINQ queries.
+            </summary>
+    </member>
+    <member name="M:MongoDB.Driver.Linq.LinqExtensions.Inject``1(MongoDB.Driver.FilterDefinition{``0})">
+      <summary>
+            Injects a low level FilterDefinition{T} into a LINQ where clause. Can only be used in LINQ queries.
+            </summary>
+      <param name="filter">The filter.</param>
+      <typeparam name="T">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>typeparam</parameter>
+            <parameter>T</parameter>
+            <parameter>M:MongoDB.Driver.Linq.LinqExtensions.Inject``1(MongoDB.Driver.FilterDefinition{``0})</parameter>
+          </include>
+        </markup>
+      </typeparam>
+      <returns>
+            Throws an InvalidOperationException if called.
+            </returns>
     </member>
     <member name="T:MongoDB.Driver.Linq.MongoEnumerable">
       <summary>
