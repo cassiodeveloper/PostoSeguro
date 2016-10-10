@@ -1,0 +1,7 @@
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Model\bin\Release\PostoSeguro.Model.dll
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Model\bin\Release\PostoSeguro.Model.pdb
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Model\bin\Release\MongoDB.Bson.dll
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Model\bin\Release\MongoDB.Bson.xml
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Model\obj\Release\PostoSeguro.Model.csprojResolveAssemblyReference.cache
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Model\obj\Release\PostoSeguro.Model.dll
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Model\obj\Release\PostoSeguro.Model.pdb

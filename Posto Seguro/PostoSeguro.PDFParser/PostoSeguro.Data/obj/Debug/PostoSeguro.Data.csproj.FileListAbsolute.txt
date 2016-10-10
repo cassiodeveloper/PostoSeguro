@@ -24,3 +24,15 @@ C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFPar
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\obj\Debug\PostoSeguro.Data.pdb
 F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\obj\Debug\PostoSeguro.Data.csprojResolveAssemblyReference.cache
 C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\MongoDB.Driver.Core.xml
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\PostoSeguro.Data.dll
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\PostoSeguro.Data.pdb
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\MongoDB.Bson.dll
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\MongoDB.Driver.Core.dll
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\MongoDB.Driver.dll
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\PostoSeguro.Model.dll
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\PostoSeguro.Model.pdb
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\MongoDB.Bson.xml
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\MongoDB.Driver.xml
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\bin\Debug\MongoDB.Driver.Core.xml
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\obj\Debug\PostoSeguro.Data.dll
+F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro\PostoSeguro.PDFParser\PostoSeguro.Data\obj\Debug\PostoSeguro.Data.pdb
