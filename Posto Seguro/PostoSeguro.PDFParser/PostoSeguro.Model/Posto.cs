@@ -17,5 +17,6 @@ namespace PostoSeguro.Model
         public IList<Penalidade> Penalidades { get; set; }
         public DateTime DataCadastro { get; set; }
         public bool Liberado { get; set; }
+        public bool Qualidade { get; set; }
     }
 }

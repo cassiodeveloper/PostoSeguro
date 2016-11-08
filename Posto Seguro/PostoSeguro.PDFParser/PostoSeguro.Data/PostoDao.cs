@@ -1,8 +1,6 @@
 ﻿using PostoSeguro.Data.Repository;
 using PostoSeguro.Model;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace PostoSeguro.Data
 {

@@ -1,5 +1,4 @@
-﻿using Microsoft.Owin.Security.OAuth;
-using System.Web.Http;
+﻿using System.Web.Http;
 
 namespace PostoSeguro.API
 {
@@ -7,9 +6,6 @@ namespace PostoSeguro.API
     {
         public static void Register(HttpConfiguration config)
         {
-            //config.SuppressDefaultHostAuthentication();
-            //config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
-
             config.EnableCors();
 
             config.MapHttpAttributeRoutes();
@@ -18,6 +14,12 @@ namespace PostoSeguro.API
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
+            );
+
+            config.Routes.MapHttpRoute(
+                name: "CustomApi",
+                routeTemplate: "api/{controller}/{estado}",
+                defaults: new { estado = RouteParameter.Optional }
             );
         }
     }

@@ -78,6 +78,7 @@ namespace PostoSeguro.Data.Repository
         private void GetDatabase()
         {
             var client = new MongoClient(GetConnectionString());
+
             database = client.GetDatabase(GetDatabaseName());
         }
 
