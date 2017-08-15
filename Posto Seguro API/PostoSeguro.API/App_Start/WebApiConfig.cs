@@ -21,6 +21,8 @@ namespace PostoSeguro.API
                 routeTemplate: "api/{controller}/{estado}",
                 defaults: new { estado = RouteParameter.Optional }
             );
+
+            SwaggerConfig.Register();
         }
     }
 }

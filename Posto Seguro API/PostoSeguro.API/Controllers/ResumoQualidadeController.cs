@@ -1,6 +1,5 @@
 ﻿using PostoSeguro.Data;
 using PostoSeguro.Model;
-using System.Collections.Generic;
 using System.Web.Http;
 using System.Web.Http.Cors;
 
@@ -16,6 +15,11 @@ namespace PostoSeguro.API.Controllers
 
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <returns></returns>
         public ResumoQualidade Get(string Id)
         {
             return resumoQualidadeDao.ObterResumoPorEstado(Id);

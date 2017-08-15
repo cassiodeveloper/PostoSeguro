@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\obj\Release\Package\PackageTmp" />
-  <setAcl path="F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="F:\Cássio\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <IisApp path="C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\mtzcpd1053\Documents\GitHub\PostoSeguro\Posto Seguro API\PostoSeguro.API\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
 </sitemanifest>

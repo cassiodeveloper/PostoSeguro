@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PostoSeguro.API</name>
+    </assembly>
+    <members>
+        <member name="M:PostoSeguro.API.Controllers.PostoController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PostoSeguro.API.Controllers.PostoController.Get(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PostoSeguro.API.Controllers.ResumoQualidadeController.Get(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -16,11 +16,20 @@ namespace PostoSeguro.API.Controllers
 
         PostoDao postoDao = new PostoDao();
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<Posto> Get()
         {
             return postoDao.ObterPostos();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <returns></returns>
         public Posto Get(string Id)
         {
             return postoDao.ObterPosto(Id);
